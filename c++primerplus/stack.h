@@ -1,0 +1,24 @@
+#ifndef STACK_H
+#define STACK_H
+
+struct customer {
+    char fullname[45];
+    double payment;
+};
+
+typedef customer Item;
+
+class Stack{
+private:
+    enum {MAX = 10};
+    Item items[MAX];
+    int top;
+public:
+    Stack();
+    bool isempty() const;
+    bool isfull() const;
+    bool push(const Item & item);
+    bool pop(Item & item);
+};
+
+#endif
