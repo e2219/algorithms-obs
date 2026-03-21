@@ -44,7 +44,10 @@
 >>**RPN** 的本质是 *每个运算符仅被使用于最近的两个未操作数*，因此它**不需要括号**，**不需要优先级规则**，**顺序即语义**。
 
 可以用栈模拟出来: 
-[中缀转后缀，后缀由栈计算答案](vscode://file/home/fhy/leetcode-cpp/postfix.cpp)
+[postfix_stack (GitHub)](./leetcode-cpp/postfix.cpp)
+[postfix_stack (VSCode)](vscode://file/home/fhy/leetcode-cpp/postfix.cpp)
+
+
 
 
 
