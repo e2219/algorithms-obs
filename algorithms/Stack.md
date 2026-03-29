@@ -47,6 +47,14 @@
 [postfix_stack (GitHub)](./leetcode-cpp/postfix.cpp)
 [postfix_stack (VSCode)](vscode://file/home/fhy/leetcode-cpp/postfix.cpp)
 
+# 单调栈
+
+>是一种特殊设计的栈结构，栈内的元素具有严格的单调性。例如，对于一个单调递减栈（栈底到栈顶元素递减），新元素入栈时，若其大于栈顶元素，则不断出栈，否则入栈，这样就在线性时间内实现了**查找下一个更大的元素**
+>>**单调栈**的本质是 *弹出不用的元素，保证每个元素最多入栈出栈一次*，栈中的元素都是待计算的元素，通过控制其单调性，**及时去掉无用数据，保证栈中数据有序**
+
+[leetcode739](https://leetcode.cn/problems/daily-temperatures/description/ 创建并维护一个单调递减栈，比较当前元素与栈顶元素) （每当遇到“不递减”的元素时，不断出栈直至递减，根据索引差值即可找到最近的更高温度）
+[leetcode1475](https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop/description/ 创建并维护一个单调递增栈)（每当遇到“不递增”的元素时，不断出栈至递减，通过元素差值确定折扣）
+
 
 
 
