@@ -77,6 +77,9 @@ public:
 	[leetcode2558](https://leetcode.cn/problems/take-gifts-from-the-richest-pile/description/ 简单堆).
 2.经典TOPK问题
 	[leetcode703](https://leetcode.cn/problems/kth-largest-element-in-a-stream/description/ 创建一个k大小的堆，用于维护前k个最大元素)
+3.多个堆(也可用向量)用来表示时间区间
+	[leetcode1942](https://leetcode.cn/problems/the-number-of-the-smallest-unoccupied-chair/description/ 时间区间坐椅子)
+	
 
 
 
