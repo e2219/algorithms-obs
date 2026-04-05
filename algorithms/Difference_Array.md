@@ -25,6 +25,8 @@ d\[i]\[j] 表示 从 (i, j) 这个点开始， 右下方矩形所有元素都有
 差分与前缀和， 就像导数与原函数。 导数到原函数需要积分， 差分数组到原数组需要累加求前缀和。
 
 根据差分数组合并区间：
-[leetcode2848](https://leetcode.cn/problems/points-that-intersect-with-cars/description/ 区间覆盖点数目)
+	[leetcode2848](https://leetcode.cn/problems/points-that-intersect-with-cars/description/ 区间覆盖点数目)
 区间离散化：
-[leetcode56](https://leetcode.cn/problems/merge-intervals/description/ 合并区间)
+	[leetcode56](https://leetcode.cn/problems/merge-intervals/description/ 合并区间)
+不连续区间：
+	[leetcode2406](https://leetcode.cn/problems/divide-intervals-into-minimum-number-of-groups/description/ 将区间分为最少组数) 找被最多个区间覆盖的点，就是要分的组数

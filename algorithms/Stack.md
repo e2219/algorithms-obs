@@ -1,5 +1,8 @@
 ## 语法
 
+\#include \<stack>
+\#include \<algorithm>
+
 初始化： `std::stack<int> s`
 入栈： `s.push(element)`
 出栈： `s.pop()` (不返回元素)

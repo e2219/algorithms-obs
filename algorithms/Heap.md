@@ -79,7 +79,27 @@ public:
 	[leetcode703](https://leetcode.cn/problems/kth-largest-element-in-a-stream/description/ 创建一个k大小的堆，用于维护前k个最大元素)
 3.多个堆(也可用向量)用来表示时间区间
 	[leetcode1942](https://leetcode.cn/problems/the-number-of-the-smallest-unoccupied-chair/description/ 时间区间坐椅子)
-	
+4.区间分组，用小顶堆储存区间右端点
+	[leetcode2406](https://leetcode.cn/problems/divide-intervals-into-minimum-number-of-groups/description/)
+5.重构元素
+	[leetcode767](https://leetcode.cn/problems/reorganize-string/description/) ranges::sort匿名函数排序
+6.反悔堆 用堆维护可能“出界”的元素，出界时，从堆顶“反悔”
+	[LCP30](https://leetcode.cn/problems/p0NxJO/description/)
+
+## 给你一串字符，能否通过重排使任意两个相邻元素不同？
+
+先给出结论：
+	设出现最多的字母为 x ，出现次数为 m ，字符串长度为 n ，若满足 `m <= n - m + 1`，则可以做到。
+本质是一种贪心，让最多的字母两两相隔一个其它字母。
+构造的思路是：**按照字母多少，先填偶数下标，再填奇数下标**
+证明：[每次删除两个不同元素，最多能删多少次](https://zhuanlan.zhihu.com/p/1945782212176909162)
+(贪心排列)
+
+有另一种排列方法：最大堆排列。
+	统计数组中每个元素出现的次数，将 `pair<cnt, num>` 放入到最大堆中，按照 `cnt`排序，构造重排数组时，每次都堆顶取出一元素(pair类型)，如果其 `num` 与重排数组最后的元素相同，则再取堆顶元素，将其放入重排数组中，再将取到的元素 `cnt - 1`放回原堆中，（如果取两次两个都要放）。与贪心排列模拟的方式相同，但用了堆。
+(堆排列)
+
+[leetcode1054](https://leetcode.cn/problems/distant-barcodes/description/)
 
 
 

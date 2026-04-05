@@ -1,0 +1,4 @@
+25325082,fan hengyu,physics,96,3,1,English, 91,2,1,history,89,3,1,xigai,86,3,1,PE,93,1,1,army,81,4,1,math1,87,4,1,program design(r),86,3,1,program desigh(w),86,1,1,math2,89,5,1
+25325084,feng wencong,physics,91,4,1
+25325107,hong rongdian,physics,100,4,1
+25321111,bai yichen,physics,90,4,1

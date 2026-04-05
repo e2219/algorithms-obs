@@ -1,5 +1,7 @@
 ## 语法
 
+\#include \<queue>
+
 初始化：std::queue<> q;
 入队：queue.push(element) / deque.push_front(element) / deque.push_back(element) 双端队列需分从队首还是队尾入队
 出队：queue.pop() / deque.pop_front() / deque.pop_back();
