@@ -54,3 +54,4 @@ public:
 
 [leetcode3597](https://leetcode.cn/problems/partition-string/description/ "分割字符串") 尽可能分成互不相同的段，用字典树检验之前是否出现过
 [leetcode648](https://leetcode.cn/problems/replace-words/description/ 单词替换) 替换单词为其词根(注意以 stringstream 分割单词的方法)
+[leetcode720](https://leetcode.cn/problems/longest-word-in-dictionary/description/) 按顺序查找，需要特殊判断(是否可拼接)

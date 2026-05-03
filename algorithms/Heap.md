@@ -1,4 +1,4 @@
-
+>结构无序堆有序，快速取值我最行
 ## 语法
 
 初始化：（大顶堆）priority_queue<typename.>, (小顶堆) priority_queue<typename, vector<typename.>, greater<typename.> >
